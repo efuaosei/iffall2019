@@ -1,0 +1,37 @@
+header {
+
+	padding-top: -4px;
+	padding-bottom: -4px;
+}
+div {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+body {
+	background-color:#ffc778;
+}
+h1 {
+	color: #b5550b;
+	font-family: courier new;
+	font-size: 300%;
+}
+h2 {
+	color: #b5550b;
+	font-family: courier new;
+	font-size: 150%; 
+}
+h3 {
+	color: #b5550b;
+	font-family: courier new;
+}
+p { 
+	max-width: 750px;
+	margin: 2px;
+
+}
+footer {
+	font-family: courier new;
+	color:#b5550b;
+	font-style: italic;
+}
+
