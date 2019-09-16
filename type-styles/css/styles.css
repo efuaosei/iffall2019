@@ -1,0 +1,121 @@
+/*styles.css*/
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 19px;
+	/*font-size: 1em;*/
+	font-weight: 300;
+	color: black; 
+	background-color: #F2D2E0;
+
+}
+
+p {
+	line-height: 20px;
+}
+
+}
+h1 {
+	font-size: 2em;
+	font-weight: 600;
+	color: black;
+	line-height: 10px;
+
+}
+
+h2 {
+	font-size: em;
+	font-weight: 500;
+	color: #C71585;
+	line-height: 10px;
+}
+
+
+h3 {
+	font-family: 'Courier New';
+	font-size: .8em;
+	font-weight: 300;
+	color: #3C2730 ;
+	line-height: 10px;
+}
+
+div {
+
+font-weight: 300;
+color: black;
+
+
+}
+
+#style-normal {
+	font-style: normal;
+}
+
+#regular {
+	font-weight: 400;
+
+
+}
+
+#light {
+	font-weight: 300;
+}
+
+#medium {
+	font-weight: 500; 
+}
+
+#semi-bold {
+	font-weight: 600;
+}
+#italic {
+	font-style: italic;
+}
+
+#uppercase {
+	text-transform: 
+}
+
+#bold {
+	font-weight: 700;
+}
+#negative-one {
+	letter-spacing: -.1em;
+}
+#one {
+	letter-spacing: .1em;
+}
+#two {
+	letter-spacing: 2em;
+}
+#negative-four {
+	letter-spacing: -0.2em;
+}
+#underline {
+	text-decoration: underline;
+}
+#line-through {
+	text-decoration: line-through;
+}
+
+#overline {
+	text-decoration: overline;
+}
+
+#lowercase {
+	text-transform: lowercase;
+}
+
+#uppercase {
+	text-transform: uppercase;
+}
+
+#capitalize {
+	text-transform: capitalize;
+}
+
+footer {
+	font-size: 10pt;
+	
+}
