@@ -4,10 +4,11 @@
 h1 {
 	text-align: center;
 	font-size: 60pt;
-	color: blue;
+	color: #fffea6;
 	margin: 0px;
 	position: sticky;
-
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
 }
 
 /*Subheading*/
@@ -20,6 +21,9 @@ h2 {
 	letter-spacing: -.2px;
 	word-spacing: -.4px;
 	/*padding-top: .5%;*/
+	color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
 
 }
 
@@ -47,10 +51,13 @@ section {
 section.Intro {
 	padding: 150px;
 	padding-bottom: 179px;
-	position: static;
 	display: block;
-	background-image: url("12233207-corn-field-corn-on-the-cob.png");
+	background-image: url("https://www.silveusfinancial.com/wp-content/uploads/2017/07/green-maize-corn-field-plantation-in-summer-PKRHGKQ.jpg");
+	opacity: 0.9;
 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
 
 }
 
@@ -59,7 +66,7 @@ section.one {
 /*	padding: 0% 12% 12% 5%;*/
 padding: 1px;
 margin: 1px;
-/*background-color: green;*/
+background-color: #fffea6;
 text-align: left;
 /*line-height: 25px;*/
 }
@@ -72,10 +79,10 @@ div.Title {
 }
 
 div#parag1 {
-	margin-left: 185px;
-	margin-right: 185px;
+	margin: 30px 185px 55px 185px;
 	/*margin-block-start: 2em;*/
-
+	/*background-position: center;
+*/	/*max-width: 2000px;*/
 }
 
 #parag1>p {
@@ -83,10 +90,19 @@ div#parag1 {
 	margin-bottom: 25px;
 	font-size: 13.13pt;
 	line-height: 1.5em;
-	margin-block-start: 7px;
-	margin-block-end: 7px;
+/*	margin-block-start: 10px;
+	margin-block-end: 10px;*/
+	margin-left: 10px;
+	margin-right: 10px;
 	margin-top: 5px;
 	margin-bottom: 0px;
+	/*max-width: 2500px;
+	min-width: 1000px;*/
+	display: block;
+	font-weight: 500;
+	width: 960px;
+
+
 
 }
 
@@ -95,8 +111,10 @@ img#large-pic {
 	height: 300px;
 	float: right;
 	object-fit: cover;
-	padding-left: 20px;
+	padding-left: 75px;
 	padding-bottom: 20px;
+	margin: 0;
+
 
 }
 
