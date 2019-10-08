@@ -42,18 +42,22 @@ body {
 /*	margin-top: 150px;*/
 }
 
-section {
-	display: block;
+
+section > div {
+	width: 960px;
+	background-color: ;
+	margin: auto;
+	padding: 35px 0 35px 0;
 }
 
 
 /*Header*/
 section.Intro {
-	padding: 150px;
-	padding-bottom: 179px;
+	padding: 100px;
+	/*padding-bottom: 160px;*/
 	display: block;
-	background-image: url("https://www.silveusfinancial.com/wp-content/uploads/2017/07/green-maize-corn-field-plantation-in-summer-PKRHGKQ.jpg");
-	opacity: 0.9;
+	background-image: url("https://grist.files.wordpress.com/2018/12/gettyimages-136599283.jpg?w=2048&h=1152&crop=1");
+	/*opacity: 0.9;*/
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -64,22 +68,20 @@ section.Intro {
 /*First Section*/
 section.one {
 /*	padding: 0% 12% 12% 5%;*/
-padding: 1px;
-margin: 1px;
+/*padding: 1px;
+margin: 1px;*/
 background-color: #fffea6;
 text-align: left;
 /*line-height: 25px;*/
 }
 
 div.Title {
-	padding: 150px 0px 150px 0px;
-
-
+	/*padding: 100px 0px 100px 0px;*/
 
 }
 
 div#parag1 {
-	margin: 30px 185px 55px 185px;
+	margin: 0;
 	/*margin-block-start: 2em;*/
 	/*background-position: center;
 */	/*max-width: 2000px;*/
@@ -87,24 +89,23 @@ div#parag1 {
 
 #parag1>p {
 	/*margin-top: 40px;*/
-	margin-bottom: 25px;
+/*	margin-bottom: 25px;*/
 	font-size: 13.13pt;
 	line-height: 1.5em;
 /*	margin-block-start: 10px;
 	margin-block-end: 10px;*/
-	margin-left: 10px;
+	/*margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 5px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;*/
 	/*max-width: 2500px;
 	min-width: 1000px;*/
 	display: block;
 	font-weight: 500;
 	width: 960px;
 
-
-
 }
+
 
 img#large-pic {
 	width: 400px;
@@ -115,9 +116,133 @@ img#large-pic {
 	padding-bottom: 20px;
 	margin: 0;
 
-
 }
+
+
 
 div#parag1-title {
 	text-align: center;
 }
+
+/*Section 2*/
+
+section.two{
+	background-color: #ed8179;
+	height: 700px;
+}	
+section.two h3 {
+	margin: 10px;
+	margin-bottom: 29px;
+	padding: 0;
+}
+
+section.two div {
+	/*margin: 0 40px 0 40px;*/
+}
+
+
+
+li {
+	width: 50%;
+	padding-right: 20px;
+	box-sizing: border-box;
+	font-size: 12.5pt;
+	display: inline-block;
+	height: 175px;
+
+}
+
+
+li img {
+	height: 150px;
+	width: 200px;
+	float: left;
+	padding-right: 15px;
+
+	
+}
+
+li p {
+
+	font-size: 14pt;
+	margin: 3px;
+	font-weight: 500;
+}
+
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	font-size: 20px;
+	margin: 0;
+
+}
+
+/*Section 3*/
+
+section.three {
+
+	background-color: #fdffe8;
+	padding-top: 0;
+	
+}
+
+section.three h3 {
+
+	margin-top: 0;
+	margin-bottom: 35px;
+	padding-top: 30px;
+
+
+}
+
+section.three div {
+
+	text-align: center;
+	padding: 0;
+	font-size: 19pt;
+	width: 45%;
+	line-height: 35px;
+	padding-bottom: 50px;
+}
+
+/*footer*/
+
+footer {
+	
+	padding: 60px 0 20px 362px;
+	font-size: 14pt;
+	letter-spacing: .1px;
+	font-weight: 500;
+	margin: 0;
+	background-color: #f0b97f;
+	
+
+}
+
+footer div {
+	/*width: 100%;*/
+	/*height: 50px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
