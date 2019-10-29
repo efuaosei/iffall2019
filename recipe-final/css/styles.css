@@ -1,0 +1,194 @@
+/*style.css*/
+
+header {
+	
+	font-size: 1rem;
+	/*width: 1000px;*/
+	margin: -40px -40px 10px -40px;
+	height: 500px;
+	padding: 0;
+	display: block;
+	background-size: cover;
+	text-align: center;
+	background-image: url(https://www.recipetineats.com/wp-content/uploads/2014/06/French-Toast_3.jpg);
+	opacity: .88;
+	position: relative;
+	
+}
+
+header div#subheading {
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	background-color: rgba(241, 225, 172, .7);
+	color: #820817;
+}
+
+
+
+header>img{
+	width: 100%;
+}
+
+div#coffeemug {
+	text-align: left;
+}
+
+div#frenchtoast {
+	text-align: right;
+}
+
+
+
+
+section.intro {
+	text-align: center;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	font-size: 2rem;
+	/*background-color: #ddced0;
+	width: 100%;
+	height: 100%;*/
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem; 
+	background-color: #820817;
+	margin: 40px;
+
+	color: #fffcd1;
+}
+
+em {
+	font-weight: 700;
+	font-size: none;
+}
+
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #820817;
+	margin-top: 0;
+
+}
+
+h1>p {
+	/*line-height: 10%;*/
+	margin: .5px;
+}
+
+
+section.ingredients {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+
+section.Logistics {
+	font-size: 1rem;
+	text-align: center;
+	margin: 0;
+	/*padding-top: 7px;*/
+	padding-bottom: 7px;
+}
+
+
+
+h3 {
+	font-size: 2rem;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+	margin-left: -20px;
+}
+
+h4 {
+	font-size: 1.2rem;
+	/*background-color: #fffcd1;*/
+	color: #fffcd1;
+	/*color: #820817;*/
+	/*width: 85px;*/
+	margin-top: 18px;
+	margin-bottom: 18px;
+	padding: 0;
+
+}
+
+
+
+}
+
+/*section.ingredients {
+	margin: 5px;
+	padding: 10px;
+	width: 240px;
+*/
+}
+
+
+section.ingredients {
+	text-align: left;
+}
+section.directions {
+	text-align: left;
+}
+
+section.directions>li {
+	padding-right: 20px;
+	box-sizing: border-box;
+	font-size: 12.5pt;
+	display: inline-block;
+	height: 175px;
+}
+
+img {
+	
+	width: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ol {
+
+	margin: 0;
+	padding: 0; }
+
+
+a {
+	text-decoration: none;
+	color: #fffcd1;
+}
+
+a:hover {
+	color: #ffd1ec;
+}
+
+a:visited {
+	color: #fffcd1;
+}
+
+hr {
+	width: 100%;
+
+}
+footer {
+	text-align: center;
+	font-size: .75rem;
+}
+
+footer>p {
+	margin:0;
+}
+
+
+
+
+
