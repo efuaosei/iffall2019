@@ -1,7 +1,7 @@
 html, body {
-	height: 100%;
+	height: 110%;
+	width: 106%;
 }
-
 
 body {
 
@@ -10,30 +10,258 @@ body {
 	background-size: contain;
 	background-size: 100%;
 	background-color: #bccbbd;
+	background-position: center bottom;
 
 }
+
+a 	{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
 
 div#message {
 	font-family: 'Press Start 2P', cursive;
 	color: #ba0400;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	position: absolute;
 	left: 7%;
-	top: 15%;
+	top: 8%;
+	width: 100%;
 }
 
 div#attribution {
 	font-family: 'Press Start 2P', cursive;
 	color: #ba0400;
 	position: absolute;
-	font-size: 1.7rem;
+	font-size: 1rem;
 	left: 10%;
-	top: 20%;
+	top: 10%;
 }
 
-@media (max-width: 3000px) {
+@media (max-width: 2500px) {
+
+	div#message {
+		left: 7%;
+		width: 85%;
+		line-height: 43px;
+	}
+}
+
+@media (max-width: 2150px) {
+
+	div#message {
+		left: 7%;
+		width: 85%;
+		line-height: 43px;
+		font-size: 1.45rem;
+	}
+
+	div#attribution {
+		top: 12%;
+	}
+}
+
+@media (max-width: 1950px) {
+
+	div#message {
+		left: 6%;
+		width: 80%;
+		font-size: 1.45rem;
+		line-height: 50px;
+	}
+
 	body {
-		
+
+		background-image: url(images3/meganthee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+}
+
+@media (max-width: 1810px) {
+
+	div#message {
+		left: 6%;
+		width: 70%;
+		font-size: 1.45rem;
+		line-height: 52px;
+	}
+
+	body {
+
+		background-image: url(images3/meganthee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 20%;
+
+	}
+}
+
+@media (max-width: 1410px) {
+
+	div#message {
+		left: 6%;
+		width: 74%;
+		font-size: 1.5rem;
+		line-height: 60px;
+	}
+
+	body {
+
+		background-image: url(images3/meganthee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 22%;
+
+	}
+}
+
+@media (max-width: 1080px) {
+
+	div#message {
+		left: 6%;
+		width: 78%;
+		font-size: 1.5rem;
+		line-height: 67px;
+	}
+
+	body {
+
+		background-image: url(images3/meganthee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 25%;
+
+	}
+}
+
+@media (max-width: 1000px) {
+
+	div#message {
+		left: 6%;
+		width: 78%;
+		font-size: 1.5rem;
+		line-height: 74px;
+	}
+
+	body {
+
+		background-image: url(images3/meganthee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 28.5%;
+
+	}
+}
+
+
+
+@media (max-width: 700px) {
+
+	div#message {
+		left: 6%;
+		width: 78%;
+		font-size: 1.5rem;
+		line-height: 79px;
+	}
+
+	body {
+
+		background-image: url(images3/meganthee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 32%;
+		line-height: 60px;
+
+	}
+}
+
+@media (max-width: 600px) {
+
+	div#message {
+		left: 6%;
+		width: 78%;
+		font-size: 1.45rem;
+		line-height: 81px;
+	}
+
+	body {
+
+		background-image: url(images3/meganthee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 36%;
+		line-height: 60px;
+
+	}
+}
+
+@media (max-width: 500px) {
+
+	div#message {
+		left: 6%;
+		width: 78%;
+		font-size: 1.45rem;
+		line-height: 80px;
+	}
+
+	body {
+
+		background-image: url(images3/meganthee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+
+
+	}
+
+	div#attribution {
+		top: 37.8%;
+		line-height: 60px;
 
 	}
 }

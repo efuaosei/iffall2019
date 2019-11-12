@@ -25,7 +25,7 @@ a {
 div#message {
 	font-family: 'Press Start 2P', cursive;
 	color: white;
-	font-size: 2.3rem;
+	font-size: 2rem;
 	position: absolute;
 	left: 3%;
 	top: 9%;
@@ -39,32 +39,176 @@ div#attribution {
 	position: absolute;
 	font-size: 1.7rem;
 	left: 10%;
-	top: 20%;
+	top: 30%;
 }
 
-/*@media (min-width: 2200px) {
+@media (max-width: 2000px) {
+
 	div#message {
-		padding: 34px
-		padding-top: 20px;
+		left: 10%;
+		width: 85%;
+		line-height: 50px;
+	}
+}
+
+@media (max-width: 1700px) {
+
+	div#message {
+		left: 15%;
+		width: 80%;
+		font-size: 1.7rem;
+		line-height: 65px;
+	}
+}
+
+@media (max-width: 1500px) {
+
+	div#message {
+		left: 15%;
+		width: 70%;
+		font-size: 1.8rem;
+		line-height: 72px;
+	}
+
+	body {
+
+		background-image: url(images/ricodesktop2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 27%;
 
 	}
 }
 
-@media (min-width: 2000px) {
+@media (max-width: 1300px) {
+
 	div#message {
-		padding: 40px
-		
+		left: 15%;
+		width: 74%;
+		font-size: 1.9rem;
+		line-height: 77px;
+	}
+
+	body {
+
+		background-image: url(images/ricodesktop2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 36%;
 
 	}
 }
 
-@media (min-width: 2000px) {
+@media (max-width: 1000px) {
+
 	div#message {
-		padding: 40px
-		
+		left: 10%;
+		width: 78%;
+		font-size: 2rem;
+		line-height: 79px;
+	}
+
+	body {
+
+		background-image: url(images/ricodesktop2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
 
 	}
-}*/
+
+	div#attribution {
+		top: 46%;
+
+	}
+}
+
+@media (max-width: 700px) {
+
+	div#message {
+		left: 10%;
+		width: 78%;
+		font-size: 2rem;
+		line-height: 79px;
+	}
+
+	body {
+
+		background-image: url(images/ricodesktop2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 50%;
+
+	}
+}
+
+@media (max-width: 600px) {
+
+	div#message {
+		left: 10%;
+		width: 78%;
+		font-size: 2rem;
+		line-height: 79px;
+	}
+
+	body {
+
+		background-image: url(images/ricodesktop2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 59%;
+
+	}
+}
 
 
-@media (max-width: )
+@media (max-width: 550px) {
+
+	div#message {
+		left: 10%;
+		width: 78%;
+		font-size: 2rem;
+		line-height: 79px;
+	}
+
+	body {
+
+		background-image: url(images/ricodesktop2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 63%;
+
+	}
+}
+

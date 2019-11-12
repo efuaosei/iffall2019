@@ -9,37 +9,228 @@ body {
 	background-size: contain;
 	background-size: 100%;
 	background-color: #f0e5df;
+	background-position: center bottom;
 
 }
 
 a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 
-	
 }
 
 div#message {
 	font-family: 'Press Start 2P', cursive;
 	color: #3b708c;
-	font-size: 2rem;
+	font-size: 1.73rem;
 	position: absolute;
 	left: 7%;
-	top: 12%;
+	top: 7%;
+	width: 94%;
 }
 
 div#attribution {
 	font-family: 'Press Start 2P', cursive;
 	color: #3b708c;
 	position: absolute;
-	font-size: 1.7rem;
+	font-size: 1.3rem;
 	left: 10%;
-	top: 20%;
+	top: 25%;
 }
 
-@media (max-width: 3000px) {
+@media (max-width: 2000px) {
+
+	div#message {
+		left: 8%;
+		width: 85%;
+		line-height: 50px;
+	}
+}
+
+@media (max-width: 1975px) {
+
+	div#message {
+		left: 8%;
+		width: 80%;
+		font-size: 1.8rem;
+		line-height: 71px;
+	}
+
+	div#attribution {
+		top: 30%;
+	}
+}
+
+@media (max-width: 1800px) {
+
+	div#message {
+		left: 8%;
+		width: 80%;
+		font-size: 1.8rem;
+		line-height: 65px;
+	}
+
 	body {
-		
+
+		background-image: url(images2/futureee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+}
+
+@media (max-width: 1700px) {
+
+	div#message {
+		left: 8%;
+		width: 70%;
+		font-size: 1.8rem;
+		line-height: 72px;
+	}
+
+	body {
+
+		background-image: url(images2/futureee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 33%;
+
+	}
+}
+
+@media (max-width: 1300px) {
+
+	div#message {
+		left: 8%;
+		width: 74%;
+		font-size: 1.8rem;
+		line-height: 77px;
+	}
+
+	body {
+
+		background-image: url(images2/futureee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 35%;
+
+	}
+}
+
+@media (max-width: 1000px) {
+
+	div#message {
+		left: 8%;
+		width: 78%;
+		font-size: 1.8rem;
+		line-height: 79px;
+	}
+
+	body {
+
+		background-image: url(images2/futureee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 36%;
+
+	}
+}
+
+@media (max-width: 1000px) {
+
+	div#message {
+		left: 8%;
+		width: 78%;
+		font-size: 1.8rem;
+		line-height: 79px;
+	}
+
+	body {
+
+		background-image: url(images2/futureee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 37%;
 
 	}
 }
 
 
+@media (max-width: 700px) {
+
+	div#message {
+		left: 8%;
+		width: 78%;
+		font-size: 1.8rem;
+		line-height: 79px;
+	}
+
+	body {
+
+		background-image: url(images2/futureee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 40%;
+
+	}
+}
+
+@media (max-width: 500px) {
+
+	div#message {
+		left: 8%;
+		width: 78%;
+		font-size: 1.8rem;
+		line-height: 79px;
+	}
+
+	body {
+
+		background-image: url(images2/futureee2.png);
+		position: sticky;
+		/*background-repeat: no-repeat;*/
+		background-size: cover;
+		background-position: center bottom;
+
+	}
+
+	div#attribution {
+		top: 41%;
+
+	}
+}
