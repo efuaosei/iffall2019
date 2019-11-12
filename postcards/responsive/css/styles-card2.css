@@ -1,0 +1,45 @@
+html, body {
+	height: 100%;
+}
+
+body {
+
+	background: url(images2/futureee.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 100%;
+	background-color: #f0e5df;
+
+}
+
+a {
+
+	
+}
+
+div#message {
+	font-family: 'Press Start 2P', cursive;
+	color: #3b708c;
+	font-size: 2rem;
+	position: absolute;
+	left: 7%;
+	top: 12%;
+}
+
+div#attribution {
+	font-family: 'Press Start 2P', cursive;
+	color: #3b708c;
+	position: absolute;
+	font-size: 1.7rem;
+	left: 10%;
+	top: 20%;
+}
+
+@media (max-width: 3000px) {
+	body {
+		
+
+	}
+}
+
+

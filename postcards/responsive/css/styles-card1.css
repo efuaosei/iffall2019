@@ -1,0 +1,70 @@
+html, body {
+	height: 100%;
+}
+
+body {
+
+	background-image: url(images/ricodesktop.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 100%;
+	background-color: #ff4f00;
+	background-position: center bottom;
+	
+}
+
+a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+}
+
+div#message {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	font-size: 2.3rem;
+	position: absolute;
+	left: 3%;
+	top: 9%;
+	width: 94%;
+
+}
+
+div#attribution {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	position: absolute;
+	font-size: 1.7rem;
+	left: 10%;
+	top: 20%;
+}
+
+/*@media (min-width: 2200px) {
+	div#message {
+		padding: 34px
+		padding-top: 20px;
+
+	}
+}
+
+@media (min-width: 2000px) {
+	div#message {
+		padding: 40px
+		
+
+	}
+}
+
+@media (min-width: 2000px) {
+	div#message {
+		padding: 40px
+		
+
+	}
+}*/
+
+
+@media (max-width: )

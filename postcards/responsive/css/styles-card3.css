@@ -1,0 +1,39 @@
+html, body {
+	height: 100%;
+}
+
+
+body {
+
+	background: url(images3/meganthee.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 100%;
+	background-color: #bccbbd;
+
+}
+
+div#message {
+	font-family: 'Press Start 2P', cursive;
+	color: #ba0400;
+	font-size: 2rem;
+	position: absolute;
+	left: 7%;
+	top: 15%;
+}
+
+div#attribution {
+	font-family: 'Press Start 2P', cursive;
+	color: #ba0400;
+	position: absolute;
+	font-size: 1.7rem;
+	left: 10%;
+	top: 20%;
+}
+
+@media (max-width: 3000px) {
+	body {
+		
+
+	}
+}
