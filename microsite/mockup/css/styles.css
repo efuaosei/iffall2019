@@ -1,0 +1,36 @@
+body {
+	background-color: #c2c2c2;
+}
+
+#header1>img {
+	width: 48%;
+	height: 40%;
+}
+
+
+#layout1>img {
+
+height: 50%;
+width: 30%;
+
+}
+
+#header2>img {
+	width: 48%;
+	height: 40%;
+}
+
+#layout2>img {
+	height: 50%;
+	width: 30%;
+}
+
+#header3>img {
+	width: 48%;
+	height: 40%;
+}
+
+#layout3>img {
+	height: 50%;
+	width: 30%;
+}
