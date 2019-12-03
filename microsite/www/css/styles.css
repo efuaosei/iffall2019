@@ -1,0 +1,336 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #5e7b60;
+  margin: 0;
+  padding-bottom: 5%;
+
+}
+
+section.content {
+  padding-top: 12%;
+}
+
+.about, .studio-ghibli, .message-and-style, .sources {
+  padding-bottom: 7%;
+}
+
+#content {
+  /*margin-block-start: 20%;*/
+  margin-left: 3.3%;
+  margin-right: 3.3%;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 11pt;
+  color: #202e21;
+}
+
+#header img {
+ width: 100%;
+}
+#headerbar {
+  /*background-color: #b22d2c;*/
+  background-color: #202e21;
+  position: fixed;
+  top: 0%;
+  height: 125px;
+    opacity: .88;
+    padding-bottom: 20px;
+    width: 100%;
+  
+
+}
+
+#headerbar>h1 {
+  padding-left: 76%;
+  position: fixed;
+}
+
+#headerbar>h2 {
+  text-align: right;
+  position: fixed;
+  padding-left: 82%;
+  padding-top: 5%;
+}
+
+#navigation-tabs {
+  
+}
+
+h1 {
+/* font-family: 'Caveat', cursive;
+font-family: 'Reenie Beanie', cursive;*/
+/* font-family: 'Shadows Into Light', cursive; */  
+ font-family: 'Nothing You Could Do', cursive;
+ color: white;
+ font-size: 2.3rem;
+ letter-spacing: 2px;
+ margin: 0;
+ padding: 10px;
+}
+
+h2 {
+  margin: 0;
+  /*font-family: 'Shadows Into Light', cursive; */
+  font-family: 'Nothing You Could Do', cursive;
+  color: white;
+  font-size: 1.3rem;
+
+}
+
+h3 {
+  font-family: 'Nothing You Could Do', cursive;
+ /*color: white;*/
+ color: #202e21;
+ font-size: 3rem;
+ padding-left: 3%;
+ margin: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 8.8%;
+  position: fixed;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 11pt;
+
+ 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+
+
+}
+
+li a:hover {
+    background-color: #5e7b60;
+    opacity: .7;
+    /*box-sizing: border-box;
+  border-radius: 4px;
+  background-size: 10px 3px;*/
+
+
+  }
+
+/*pictures*/
+
+#picture1>img {
+  width: 200px;
+  height: 100px;
+}
+
+
+/*@media*/
+
+
+@media (max-width: 1385px) {
+  #headerbar>h1 {
+    padding-left: 75%;
+    position: fixed;
+}
+
+}
+
+
+
+@media (max-width: 1333px) {
+  #headerbar>h1 {
+    padding-left: 73.5%;
+    position: fixed;
+}
+
+}
+
+
+
+@media (max-width: 1269px) {
+  #headerbar>h1 {
+    padding-left: 71%;
+    position: fixed;
+}
+  #headerbar>h2 {
+    padding-left: 80%;
+    padding-top: 5%;
+  }
+
+}
+
+
+
+@media (max-width: 1153px) {
+  #headerbar>h1 {
+    padding-left: 69%;
+    position: fixed;
+  }
+
+  #headerbar>h2 {
+    padding-left: 78%;
+    padding-top: 5%;
+  }
+
+}
+
+
+
+@media (max-width: 1077px) {
+  #headerbar>h1 {
+    padding-left: 67%;
+    position: fixed;
+  }
+
+  #headerbar>h2 {
+    padding-left: 76.5%;
+    padding-top: 5%;
+  }
+
+}
+
+
+
+
+@media (max-width: 1009px) {
+  #headerbar>h1 {
+    padding-left: 63%;
+    position: fixed;
+  }
+
+  #headerbar>h2 {
+    padding-left: 74%;
+    padding-top: 5.4%;
+  }
+
+}
+
+
+
+@media (max-width: 901px) {
+  #headerbar>h1 {
+    padding-left: 60%;
+    position: fixed;
+  }
+
+  #headerbar>h2 {
+    padding-left: 72.3%;
+    padding-top: 5.9%;
+  }
+
+}
+
+
+
+@media (max-width: 833px) {
+  #headerbar>h1 {
+    padding-left: 57.6%;
+    position: fixed;
+  }
+
+  #headerbar>h2 {
+    padding-left: 70%;
+    padding-top: 6.2%;
+  }
+
+}
+
+
+
+@media (max-width: 787px) {
+  #headerbar>h1 {
+    padding-left: 55%;
+    position: fixed;
+  }
+
+  #headerbar>h2 {
+    padding-left: 67.4%;
+    padding-top: 6.3%;
+  }
+
+}
+
+
+
+@media (max-width: 745px) {
+  #headerbar>h1 {
+    padding-left: 50%;
+    position: fixed;
+  }
+
+  #headerbar>h2 {
+    padding-left: 65%;
+    padding-top: 8%;
+  }
+
+}
+
+
+
+@media (max-width: 745px) {
+  #headerbar>h1 {
+    padding-left: 50%;
+    position: fixed;
+  }
+
+  #headerbar>h2 {
+    padding-left: 65%;
+    padding-top: 8%;
+  }
+
+}
+
+@media (max-width: 675px) {
+  #headerbar>h1 {
+    padding-left: 50%;
+    position: fixed;
+  }
+
+  #headerbar>h2 {
+    padding-left: 65%;
+    padding-top: 8%;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  #navigation-tabs ul {
+    background-color: white;
+    display: none;
+  }
+
+  #navigation-tabs ul li {
+    display: block;
+    float: none;
+    color: black;
+  }
+
+  #navigation-tabs ul.open {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+footer {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 9pt;
+  text-align: center;
+}
