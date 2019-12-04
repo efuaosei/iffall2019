@@ -1,0 +1,420 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #5e7b60;
+  margin: 0;
+  padding-bottom: 5%;
+
+}
+
+section#content {
+  padding-top: 6%;
+}
+
+section.about {
+
+}
+
+section#about h1 {
+  padding: 15px;
+}
+
+
+section#about #content {
+  
+  text-align: left;
+  line-height: 30px;
+  padding-left: 85px;
+
+}
+
+section#studio-ghibli {
+}
+
+
+section#studio-ghibli #content {
+  line-height: 30px;
+}
+
+section#message-and-style #content {
+   
+  text-align: left;
+  line-height: 30px;
+  
+}
+
+section#sources {
+  padding-top: 120px;
+}
+
+section#sources #content {
+   
+  text-align: left;
+  line-height: 30px;
+  
+}
+
+#sources h3 {
+  text-align: left;
+
+}
+
+section#sources a {
+  color: #202e21
+}
+
+section#sources a:hover {
+  width: 50px;
+  height: 60px;
+  background-color: #202e21;
+  color: white;
+  transform:scale(1.3);
+  transition: .2s;
+}
+
+section#sources a:active {
+  color: gray;
+}
+
+
+
+
+#content {
+  /*margin-block-start: 20%;*/
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 11pt;
+  color: #202e21;
+  padding-left: 30px;
+  padding-right: 40px;
+
+}
+
+#header img {
+ width: 100%;
+}
+#headerbar {
+  /*background-color: #b22d2c;*/
+  background-color: #202e21;
+  position: fixed;
+  top: 0%;
+  height: 75px;
+    opacity: .88;
+    padding-bottom: 20px;
+    width: 100%;
+  
+
+}
+
+#headerbar>h1 {
+  padding-left: 76%;
+  position: fixed;
+}
+
+
+#navigation-tabs {
+  
+}
+
+h1 {
+/* font-family: 'Caveat', cursive;
+font-family: 'Reenie Beanie', cursive;*/
+/* font-family: 'Shadows Into Light', cursive; */  
+ font-family: 'Nothing You Could Do', cursive;
+ color: white;
+ font-size: 2.3rem;
+ letter-spacing: 2px;
+ margin: 0;
+ padding: 10px;
+ padding-top: 28px;
+ padding-bottom: 5px;
+}
+
+h3 {
+  font-family: 'Nothing You Could Do', cursive;
+ /*color: white;*/
+ color: #202e21;
+ font-size: 3.5rem;
+ padding-left: 3%;
+ margin: 0;
+ padding-top: 89px;
+
+}
+
+h4 {
+  display: none;
+  font-family: 'Nothing You Could Do', cursive;
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 10px;
+  padding-top: 28px;
+  padding-bottom: 5px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 3%;
+  left: 1.1%;
+  position: fixed;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 9pt;
+
+ 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+
+
+}
+
+li a:hover {
+    background-color: #5e7b60;
+    opacity: .7;
+    /*box-sizing: border-box;
+  border-radius: 4px;
+  background-size: 10px 3px;*/
+
+
+  }
+
+/*pictures*/
+
+/*#picture1>img {
+
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  
+
+}*/
+
+#picture2>img {
+
+  width: 400px;
+  height: 300px;
+  float: right;
+ margin: 20px;
+  padding-top: 5px;
+  
+}
+
+#picture3>img {
+  width: 350px;
+  height: 400px;
+  float: left;
+ margin: 30px;
+  
+}
+
+#picture4>img {
+  width: 400px;
+  height: 275px;
+  float: right;
+ margin: 20px;
+  
+}
+
+#picture5>img {
+  width: 250px;
+  height: 174px;
+  float: left;
+ margin: 20px;
+  
+}
+
+#picture6>img {
+  width: 243px;
+  height: 330px;
+  float: left;
+ margin: 20px;
+  
+}
+/*@media*/
+
+
+@media (max-width: 1385px) {
+  #headerbar>h1 {
+    padding-left: 75%;
+    position: fixed;
+}
+
+}
+
+
+
+@media (max-width: 1333px) {
+  #headerbar>h1 {
+    padding-left: 73.5%;
+    position: fixed;
+}
+
+}
+
+
+
+@media (max-width: 1269px) {
+  #headerbar>h1 {
+    padding-left: 71%;
+    position: fixed;
+}
+
+}
+
+
+
+@media (max-width: 1153px) {
+  #headerbar>h1 {
+    padding-left: 69%;
+    position: fixed;
+  }
+}
+
+
+
+@media (max-width: 1077px) {
+  #headerbar>h1 {
+    padding-left: 67%;
+    position: fixed;
+  }
+
+}
+
+
+
+
+@media (max-width: 1009px) {
+  #headerbar>h1 {
+    padding-left: 63%;
+    position: fixed;
+  }
+
+
+}
+
+
+
+@media (max-width: 901px) {
+  #headerbar>h1 {
+    padding-left: 60%;
+    position: fixed;
+  }
+
+}
+
+
+
+@media (max-width: 833px) {
+  #headerbar>h1 {
+    padding-left: 57.6%;
+    position: fixed;
+  }
+
+}
+
+
+
+@media (max-width: 821px) {
+  #headerbar>h1 {
+    font-size: 1.9rem;
+    padding-left: 60%;
+  }
+}
+
+
+@media (max-width: 793px) {
+  #headerbar>h1 {
+    font-size: 1.7rem;
+    padding-left: 64%;
+  }
+}
+
+
+@media (max-width: 735px) {
+  #headerbar>h1 {
+    font-size: 1.5rem;
+    padding-left: 66%;
+    padding-top: 32px;
+  }
+}
+
+@media (max-width: 711px) {
+  #headerbar>h1 {
+    font-size: 1.3rem;
+    padding-left: 68%;
+    padding-top: 34px;
+  }
+}
+
+@media (max-width: 680px) {
+  #headerbar>h1 {
+   /* padding-left: 70%;
+    position: fixed;
+    font-size: 1.1rem;*/
+    display: none;
+  }
+
+  #headerbar>h4 {
+    display: block;
+    text-align: right;
+    padding-right: 22.5px;
+    padding-top: 38.7px;
+  }
+
+}
+
+
+
+@media (max-width: 403px) {
+  #headerbar>h1 {
+   /* padding-left: 70%;
+    position: fixed;
+    font-size: 1.1rem;*/
+    display: none;
+  }
+
+  #headerbar>h4 {
+    display: block;
+    text-align: right;
+    padding-right: 22.5px;
+    padding-top: 38.7px;
+  }
+
+  #headerbar {
+    height: 115px;
+  }
+
+}
+
+
+
+
+
+
+footer {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 9pt;
+  text-align: center;
+  padding: 35px;
+  color: #5e7b60;
+  background-color: #202e21;
+}
